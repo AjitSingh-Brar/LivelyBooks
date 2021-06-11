@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.book_header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(51, 221, 221);
+  border-bottom-left-radius: 200px;
+}
+.book_headerNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book_headerLogo img {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+.book_NavSection {
+  padding: 10px 100px;
+}
+.book_NavSection a {
+  padding: 40px;
+  cursor: pointer;
+}
+
+.book_headerBody {
+  display: flex;
+  margin: 100px;
+  justify-content: space-between;
+}
+
+.book_firstSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.book_firstSection h2 {
+  font-size: 40px;
+}
+
+.book_firstSection p {
+  margin: 10px 0;
+}
+
+.book_searchForm {
+  background-color: white;
+  border: 1px solid whitesmoke;
+  border-radius: 50px;
+  padding: 7px;
+  margin: 10px;
+  width: 60%;
+  display: flex;
+}
+.book_searchForm input {
+  background: none;
+  flex: 1;
+  border: none;
+  outline: 0;
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 5px;
+}
+.book_searchForm button {
+  padding: 15px 40px;
+  margin: 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: rgb(243, 167, 180);
+  transition: all 250ms ease-in-out 0s;
+}
+.book_searchForm button:hover {
+  background-color: rgb(230, 94, 116);
+}
+
+.book_searchForm button span {
+  color: rgb(165, 29, 51);
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 250ms ease-in-out 0s;
+}
+.book_searchForm button:hover span {
+  color: rgb(243, 243, 243);
+  font-size: 15px;
+  font-weight: bold;
+}
+.book_secondSection {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+}
+.book_secondSection img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(10px 20px 10px #222);
+}
