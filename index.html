@@ -9,7 +9,9 @@
   <body>
     <div class="book_header">
       <div class="book_headerNavigation">
-        <div class="book_headerLogo"><img src="images/appLogo.png" /></div>
+        <div class="book_headerLogo">
+          <a href="/"><img src="images/appLogo.png" /></a>
+        </div>
         <div class="book_NavSection">
           <a><span>Readers</span></a>
           <a><span>Authors</span></a>
@@ -28,8 +30,7 @@
             <input
               type="text"
               placeholder="Search for books"
-              value=""
-              class="searchInput"
+              id="searchInput"
             />
             <button type="button" onClick="searchResult()">
               <span>Search</span>
@@ -41,7 +42,9 @@
         </div>
       </div>
     </div>
-    <div class="body_footer"></div>
+
+    <div class="search_resultBody"></div>
+
     <script src="index.js"></script>
   </body>
 </html>

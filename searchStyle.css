@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.search_header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(51, 221, 221);
+  border-bottom-left-radius: 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+.search_resultBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 15%;
+}
+
+.search_resultBook {
+  display: flex;
+  align-items: center;
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 40%;
+  transition: all 250ms ease-in-out 0s;
+}
+.search_resultBook:hover {
+  box-shadow: 0px 2px 11px 0px rgba(50, 50, 50, 0.75);
+}
+
+.search_headerLogo img {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+.search_NavSection {
+  padding: 10px 100px;
+}
+
+.search_NavSection a {
+  padding: 40px;
+  cursor: pointer;
+}
+
+.search_bookImage {
+  flex: 0.5;
+  text-align: center;
+}
+.search_bookImage img {
+  width: 150px;
+  height: 200px;
+}
+
+.search_BookInfo h3 {
+  font-size: 24px;
+}
+.search_BookInfo p {
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  color: gray;
+}
+.search_BookInfo a {
+  position: relative;
+  top: 20px;
+  padding: 10px 40px;
+  cursor: pointer;
+  background: rgb(243, 167, 180);
+  color: rgb(165, 29, 51);
+  font-weight: bold;
+  transition: all 250ms ease-in-out 0s;
+}
+
+.search_BookInfo a:hover {
+  background-color: rgb(230, 94, 116);
+  color: rgb(243, 243, 243);
+}
